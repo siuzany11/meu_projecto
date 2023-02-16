@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block css %} <link rel="stylesheet" type="text/css" href="../static/alege.css">{% endblock %}
+
+{% block content%}
+<div class="alege">
+    <form>
+        <h4>Nume:<input type="text"></h4>
+        <h4>Prenume:<input type="text"></h4>
+        <h4>Especializare:</h4><input type="radio" class="especilizare"><label>IR</label><input type="radio" especilizare><label>IA</label><input type="radio" especilizare><label>IE</label>
+        <div class="an_studi">
+            <p>An de Studiu:</p>
+                <input type="radio" class="checkbox-round"  id="an1" name="an" value="an">
+                <label for="an1">1</label><br>
+                   <input type="radio" class="checkbox-round" id="an2" name="an" value="an">
+                <label for="an1">2</label><br>
+                   <input type="radio" class="checkbox-round" id="an3" name="an" value="an">
+                <label for="an1">3</label><br>
+            </div>
+        <h4>Alege materii pentru samestru 1:</h4>
+
+        <h4>Alege materii pentru samestru 2  :</h4>
+
+
+
+    </form>
+</div>
+
+{% endblock %}
